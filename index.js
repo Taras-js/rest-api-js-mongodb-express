@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(todoRoutes)
 async function start() {
     try {
-        await mongoose.connect('mongodb+srv://Taras:fantomas150980@cluster0.efgsk.mongodb.net/todos', {
+        await mongoose.connect('mongodb+srv://Taras:<#################>@cluster0.efgsk.mongodb.net/todos', {
 
             // useNewUrlParser: true,
             // useUnifiedTopology: true,
