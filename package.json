@@ -1,0 +1,32 @@
+{
+  "name": "rest-api-js-mongodb-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taras-js/web-application--News-Portal-.git"
+  },
+  "keywords": [
+    "fantomas150980"
+  ],
+  "author": "Taras Schevchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taras-js/web-application--News-Portal-/issues"
+  },
+  "homepage": "https://github.com/Taras-js/web-application--News-Portal-#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "mongoose": "^6.2.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
